@@ -1,0 +1,78 @@
+﻿# ========================
+# Python / Backend
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.env
+*.env
+.DS_Store
+
+# Model weights (large files — download separately)
+backend/ml/weights/
+backend/ml/*.pt
+backend/ml/*.pth
+backend/ml/*.bin
+backend/ml/*.onnx
+
+# Temp uploaded images (privacy)
+backend/temp/
+backend/uploads/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.webp
+
+# ========================
+# Node / React Native
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/
+
+# React Native build outputs
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/build/
+mobile/android/local.properties
+mobile/.gradle/
+
+# ========================
+# IDE & Editor Files
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ========================
+# OS Files
+# ========================
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
