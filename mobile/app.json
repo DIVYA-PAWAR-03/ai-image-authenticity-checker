@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AI Image Checker",
+    "slug": "ai-image-checker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f1a"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f0f1a"
+      },
+      "package": "com.divya.aiimageauthchecker",
+      "permissions": [
+        "READ_MEDIA_IMAGES",
+        "READ_EXTERNAL_STORAGE",
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow AI Image Checker to access your photos to check if they are real or AI-generated.",
+          "cameraPermission": "Allow AI Image Checker to use your camera to take a photo for checking."
+        }
+      ]
+    ]
+  }
+}
